@@ -11,10 +11,10 @@ $(function(){
     var lon1 = 26.23003111169812;
     var lat2 = 44.34801852842442;
     var lon2 = 26.23089349708368;
-    var lat3 = 44.37926299000853;
-    var lon3 = 26.24474373844291;
-    var lat4 = 44.37937075455216;
-    var lon4 = 26.24436140332963;
+    var lat3 = 44.4109;
+    var lon3 = 26.2507;
+    var lat4 = 44.4109;
+    var lon4 = 26.2507;
     var lat5 = 44.32815352107797;
     var lon5 = 26.13445952363111;
     var lat6 = 44.32780288338909;
@@ -162,7 +162,7 @@ $(function(){
 
                 var prefix = "/";
 
-                layers[dateId + '|' + datasetId + '|' + productId] = L.tileLayer(prefix + 'https://costumersdata.s3.eu-west-1.amazonaws.com/data/' + datasetId +'/' + dateId + '/' + productId + '/tiles/{z}/{x}/{y}.png', {
+                layers[dateId + '|' + datasetId + '|' + productId] = L.tileLayer(prefix + 'data/' + datasetId +'/' + dateId + '/' + productId + '/tiles/{z}/{x}/{y}.png', {
                     noWrap: true,
                     maxZoom: 99,
                     maxNativeZoom: 21,
