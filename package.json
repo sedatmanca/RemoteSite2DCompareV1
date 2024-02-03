@@ -1,0 +1,11 @@
+{
+  "name": "remotesite2dcompare",
+  "version": "1.0.0",
+  "description": "-> Add-on for RemoteSite Core",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Merve Manca",
+  "license": "ISC"
+}
